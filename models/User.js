@@ -1,4 +1,4 @@
-const { Sequelize, DataTypes } = require("sequelize");
+const { Sequelize, DataTypes } = require("sequelize"); //nerede db baglancaksak orda sequelize import edilir destructure yap
 
 //connect to db
 // postgres://user:pass@example.com:5432/dbname
@@ -14,9 +14,9 @@ sequelize
 // ORM table
 // recruiter table in the clarusway db
 
-// modelname, attribute, options
+// modelname, attribute, options, model db deki tablonun birebir semasi
 const UserModel = sequelize.define(
-  "recruiters",
+  "recruiter",
   {
     //attributes
     //id, firstName, lastName, createdAt, updatedAt
