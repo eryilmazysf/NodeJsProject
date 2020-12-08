@@ -14,9 +14,9 @@ sequelize
 // ORM table
 // recruiter table in the clarusway db
 
-// modelname, attribute, options, model db deki tablonun birebir semasi
+// modelname, attribute, options, model db deki tablonun birebir semasi tabloyu olusturur browserda
 const UserModel = sequelize.define(
-  "recruiter",
+  "recruiter", //tablo name
   {
     //attributes
     //id, firstName, lastName, createdAt, updatedAt
